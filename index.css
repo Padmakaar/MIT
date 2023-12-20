@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+@media screen and (max-width:1920px) {
+    body{
+        background-color:#232323;
+    }
+    .nav img{
+        color: #232323;
+    }
+    .navbar a{
+        transition: .2s;
+    }
+    .navbar a:hover{
+        transform: scale(1.2);
+        transition: .2s;
+    }
+    /* tri grid */
+    .brand{
+        width: 40rem;
+        background-image: url("./img/Polygon\ 1.png");
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        background-size:70%;
+        background-position: 50% 0%;
+        background-repeat: no-repeat;
+
+    }
+    .brand img{
+        height: 24.5rem;
+        padding-top: 50px;
+        
+     }
+
+
+    /* card css*/
+    .card-body{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+    .cards-container{
+        max-width: 100%;
+        overflow: hidden;
+        height: 45rem;
+        margin: 2rem;
+        display:flex ;
+        flex-direction: row;
+        gap: 3.5rem;
+        
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 22%;
+        height: auto;
+        color: white;
+        gap: .7rem;
+        transition: 0.2s;
+    }
+    .card:hover{
+        width: 25%;
+        transition: 0.2s;
+    }
+    .card .card-title{
+        color: #FFF;
+        font-family: 'Inter';
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    } 
+    .card .card-text{
+        color: #FFF;
+        font-family: 'Inter';
+        font-size: .90rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .card .prise{
+        color: #FFF;
+        font-family: 'Inter';
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+   .card-img-top{
+    width: 100%;
+    height: auto;
+    size: cover;
+   }
+   /* side nav*/
+   
+   /* nav css */
+   .navbar{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        width: 100%;
+    }
+    .navbar .left{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+    }
+    .right{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        justify-content: end;
+    }
+    .title-shop{
+        color: #EE3943;
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 6.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 5rem;
+    }
+    .left-icon{
+        width: 2rem;
+        height: 2rem;
+        flex-shrink: 0;
+        align-self: center;
+        margin: 10px;
+        padding: 10px;
+    }
+    .nav-menu{
+        display: flex;
+        width: 2rem;
+        height: 2rem;
+        flex-shrink: 0;
+        align-self: center;
+        margin: 20px;
+    }
+    .nav-product{
+        padding: 3px 5px;
+        color:#232323;
+        font-family: "Inter";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        padding: 20px;
+        text-decoration: none;
+    }
+    .into{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        height: 100vh;
+        object-fit:fill;
+        background-image: url("./img/WhatsApp\ Image\ 2023-12-21\ at\ 12.24.43\ AM.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .title{
+        color: #EE3943;
+        text-decoration: underline;
+        font-family: 'Inter';
+        font-size: 175px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .backgroundimg1{
+        width: 50%;
+        height: 50%;
+        align-items: center;
+        background-image: url("./img/Polygon\ 1.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    /* projects css */
+    .projects-sample{
+        display: flex;
+        overflow: hidden;
+    }
+    .projects-img{
+        width: 100%;
+        height: auto;
+    }
+    /*About css*/
+    .script{
+        width: 75%;
+        margin-bottom: 20rem;
+    }
+    .about{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .content{
+        
+        color: #FFF;
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        
+    }
+
+    /*contact css*/
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem;
+    }
+    .social{
+        display: inline-flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2.5rem;
+    }
+    .copyrights{
+        width: 100%;
+        background-color: #EE3943;
+        text-align: center;
+        padding: 10px 0px;
+        
+    }
+}
